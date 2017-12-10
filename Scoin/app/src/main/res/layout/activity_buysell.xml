@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="berkea.scoin.buysellActivity">
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="358dp"
+        android:layout_height="39dp"
+        android:text="1 Scoin ="
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/creditT"
+        android:layout_width="356dp"
+        android:layout_height="39dp"
+        android:text="Credit USD: "
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/creditST"
+        android:layout_width="356dp"
+        android:layout_height="39dp"
+        android:text="Credit Scoin: "
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Button
+        android:id="@+id/buyB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellET"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintVertical_bias="0.323"
+        android:layout_marginBottom="170dp" />
+
+    <Button
+        android:id="@+id/sellB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELL"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <EditText
+        android:id="@+id/buyET"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintRight_toLeftOf="@+id/sellET"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buyB"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <EditText
+        android:id="@+id/sellET"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/sellB"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintVertical_bias="0.488" />
+
+
+</android.support.constraint.ConstraintLayout>
