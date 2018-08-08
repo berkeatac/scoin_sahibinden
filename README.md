@@ -1,5 +1,9 @@
 # scoin_sahibinden
 
+<img src="https://github.com/berkeatac/scoin_sahibinden/blob/master/device_screenshots/device-2017-12-10-162204.png" width="400">   <img src="https://github.com/berkeatac/scoin_sahibinden/blob/master/device_screenshots/device-2017-12-10-162231.png" width="400">
+
+<img src="https://github.com/berkeatac/scoin_sahibinden/blob/master/device_screenshots/device-2017-12-10-162247.png" width="400">   <img src="https://github.com/berkeatac/scoin_sahibinden/blob/master/device_screenshots/device-2017-12-10-162306.png" width="400">
+
 This project consists of two parts.
 
   1) Android Application that can be found in the Scoin folder.
